@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фильтр новостей</title>
+<link rel="stylesheet" href="site7.css">
+</head>
+<body>
+<h1>Новости</h1>
+
+<div id="filterButtons">
+    <button onclick="filterNews('all')">Все</button>
+    <button onclick="filterNews('politics')">Политика</button>
+    <button onclick="filterNews('sports')">Спорт</button>
+    <button onclick="filterNews('tech')">Технологии</button>
+  </div>
+  
+  <div id="newsContainer">
+    <div class="news politics">
+      <img src="https://cdn.nur.kz/images/720x405/5202453298c2b57c.webp?version=1" alt="Политика">
+      <div class="news-content">
+        <h2>Новость о политике</h2>
+        <p>Новые правила, касающиеся рекламы в интернете, вступят в силу 2 марта в Казахстане</p>
+        <div class="news-footer">
+          <span class="news-date">21 февраля 2024</span>
+          <span class="news-topic">Политика</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="news politics">
+        <img src="https://cdn.nur.kz/images/720x405/15f1420a42cac6bd.webp?version=1" alt="Политика">
+        <div class="news-content">
+          <h2>Новость о политике</h2>
+          <p>Токаев встретился с главой QazaqGaz</p>
+          <div class="news-footer">
+            <span class="news-date">21 февраля 2024</span>
+            <span class="news-topic">Политика</span>
+          </div>
+        </div>
+    </div>
+
+    
+    <div class="news sports">
+      <img src="https://www.sports.kz/upload/2024-02/500_65d7816330b25.jpg.webp" alt="Спорт">
+      <div class="news-content">
+        <h2>Новость о спорте</h2>
+        <p>В сборной Казахстана сделали заявление о матче с Грецией</p>
+        <div class="news-footer">
+          <span class="news-date">20 февраля 2024</span>
+          <span class="news-topic">Спорт</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="news sports">
+        <img src="https://www.sports.kz/upload/2024-02/500_65d77a3fd5637.jpg.webp" alt="Спорт">
+        <div class="news-content">
+          <h2>Новость о спорте</h2>
+          <p>Футболист сборной Румынии прибыл в «Актобе»
+            https://www.sports.kz/news/futbolist-sbornoy-rumyinii-pribyil-vaktobe</p>
+          <div class="news-footer">
+            <span class="news-date">22 февраля 2024</span>
+            <span class="news-topic">Спорт</span>
+          </div>
+        </div>
+      </div>
+    
+    <div class="news tech">
+      <img src="https://cdn.nur.kz/images/720x405/e57bf5dd82470a9a.webp?version=1" alt="Технологии">
+      <div class="news-content">
+        <h2>Новость о технологиях</h2>
+        <p>Почему произошла утечка данных казахстанцев китайским кибершпионам, объяснили специалисты </p>
+        <div class="news-footer">
+          <span class="news-date">19 февраля 2024</span>
+          <span class="news-topic">Технологии</span>
+        </div>
+      </div>
+    </div>
+
+  <div class="news tech">
+    <img src="https://cdn.nur.kz/images/720x405/6e8e146b14c20160.webp?version=1" alt="Технологии">
+    <div class="news-content">
+      <h2>Новость о технологиях</h2>
+      <p>Google исправит ошибки в работе чат-бота Gemini </p>
+      <div class="news-footer">
+        <span class="news-date">9 февраля 2024</span>
+        <span class="news-topic">Технологии</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="site7.js"></script>
+</body>
+</html>
