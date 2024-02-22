@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фильтр товаров</title>
+<link rel="stylesheet" href="site6.css">
+</head>
+<body>
+<h1>Магазин товаров</h1>
+
+<div id="filters">
+  <label for="category">Категория:</label>
+  <select id="category">
+    <option value="all">Все</option>
+    <option value="electronics">Электроника</option>
+    <option value="clothing">Одежда</option>
+    <option value="books">Книги</option>
+  </select>
+  
+  <label for="priceFrom">Цена от:</label>
+  <input type="number" id="priceFrom" min="0">
+  
+  <label for="priceTo">до:</label>
+  <input type="number" id="priceTo" min="0">
+  
+  <button onclick="filterProducts()">Применить фильтр</button>
+</div>
+
+<div id="products">
+  <div class="product electronics" data-price="150000">
+    <img src="https://sc04.alicdn.com/kf/H34623b6e75a545df9965f6cf413db6330.jpg" alt="">
+    <h2>Ноутбук</h2>
+    
+    <p>Цена: 150000 тг</p>
+  </div>
+  <div class="product clothing" data-price="15000">
+    <img src="https://cityprint.kz/upload/iblock/0c0/95llh0vxgtse4kajx4xp0ste4q413ity.jpg" alt="">
+    <h2>Футболка</h2>
+    <p>Цена: 15000 тг</p>
+  </div>
+  <div class="product books" data-price="5500">
+    <img src="http://www.valeryfedosov.ru/wp-content/uploads/2020/08/%D0%9F%D0%BE%D1%86%D0%B5%D0%BB%D1%83%D0%B9%D1%81%D0%BD%D0%B5%D0%B1%D0%B0.jpg" alt="">
+    <h2>Книга</h2>
+    <p>Цена: 5500 тг</p>
+  </div>
+</div>
+
+<script src="site6.js"></script>
+</body>
+</html>
